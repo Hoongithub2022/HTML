@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>색상 선택 폼 삽입하기</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        li label {
+            width: 120px;
+            float: left;
+            text-align: right;
+            padding-right: 8px;
+        }
+
+        input[type="submit"] {
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>과 티셔츠 설문</legend>
+            <p>올해 과 티(T)를 만들려고 합니다. 원하는 색상을 추천해 주세요.</p>
+            <label>선호색상 <input type="color" value="#00ff00"></label>
+        </fieldset>
+    </form>
+</body>
+</html>
