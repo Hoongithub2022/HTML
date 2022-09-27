@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px 'Dotum';
+}
+
+#wrapper {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #fefefe;
+    background-image: url(../img/header_bg.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+header>div {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+header>div>ul {
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    height: 28px;
+    box-sizing: border-box;
+}
+
+header>div>ul>li {
+    float: left;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+header .top {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+header .line {
+    position: absolute;
+    bottom: 0px;
+    width: 1000px;
+    height: 28px;
+    z-index: 10;
+    background: #becedb;
+}
+
+header .line>li {
+    float: left;
+    width: 200px;
+    height: 28px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 28px;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+}
+
+main {
+    width: 1000px;
+    height: 620px;
+    position: relative;
+    padding-top: 28px;
+    margin: 0 auto;
+    background: url(../img/main_bg.png);
+}
+
+main>section {
+    width: 100%;
+    height: 620px;
+    box-sizing: border-box;
+}
+
+main>section>div {
+    float: left;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+main>section>div:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    background: url(../img/main_box1_bg.png);
+}
+
+main>section>.box1 img:nth-child(1) {
+    margin-top: -30px;
+}
+
+main>section>.box1 > img:nth-child(2) {
+  margin-top: -45px;
+}
+
+main>section>div:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    top: 0;
+    text-align: center;
+    padding-top: 30px;
+    background: url(../img/main_box2_bg.png);
+    box-sizing: border-box;
+}
+
+main>section>div:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    left: 400px;
+    position: absolute;
+    background: url(../img/main_box3_bg.png);
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+main>section>div:nth-child(3) > img:nth-child(1) {
+    position: absolute;
+    margin-left: 10px;
+    left: 20px;
+    top: 0;
+}
+
+main>section>div:nth-child(4) {
+    width: 200px;
+    height: 200px;
+    left: 600px;
+    position: absolute;
+    background: url(../img/main_box4_bg.png);
+    text-align: left;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+
+main>section>div:nth-child(5) {
+    width: 200px;
+    height: 200px;
+    background: url(../img/main_box5_bg.jpg) no-repeat;
+    position: absolute;
+    top: 200px;
+    clear: left;
+}
+
+main>section>div:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    background: url(../img/main_box6_bg.jpg) no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+main>section>div:nth-child(5) > img:nth-child(1){
+    position: absolute;
+    right: 0;
+}
+
+main>section>div:nth-child(6) > img:nth-child(1){
+    float: right;
+}
+
+main>section>div:nth-child(7) {
+    width: 200px;
+    height: 200px;
+    background: url(../img/main_box7_bg.png);
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+main>article {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+main>article>div {
+    float: left;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#latest {
+    width: 1000px;
+    height: 130px;
+    margin: 0 auto;
+    border-top: 1px solid #becedb;
+    padding-top: 20px;
+}
+
+#latest > div {
+    width: 250px;
+    height: 130px;
+    float: left;
+    margin: 0 auto;
+}
+
+.info1 > img:nth-child(1) {
+    padding-bottom: 10px;
+}
+
+.info2 > img:nth-child(1) {
+    padding-bottom: 6px;
+}
+
+footer {
+    width: 1000px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+footer > #address {
+    border-top: 1px solid #b9cadc;
+}
+
+ul,
+ol {
+    list-style: none;
+}
