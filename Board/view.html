@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>글보기</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h3>Board System v1.0</h3>
+            <p>
+                <span class="nick">길동이</span>님 반갑습니다.
+                <a href="./user/login.html" class="logout">[로그아웃]</a>
+            </p>
+        </header>
+        <main id="bord" class="view">
+            <table border="1">
+                <caption>글보기</caption>
+                <tr>
+                    <td>제목</td>
+                    <td><input type="text" name="title" value="제목입니다." readonly /></td>
+                </tr>
+                <tr>
+                    <td>첨부파일</td>
+                    <td>
+                        <a href="#">2020년 상반기 매출자료.xls</a>
+                        <span>7회 다운로드</span>
+                    </td>
+                <tr>
+                    <td>내용</td>
+                    <td>내용 샘플입니다.</td>
+                </tr>
+                </tr>
+            </table>
+            <div>
+                <a href="#" class="btnDelete">삭제</a>
+                <a href="./modify.html" class="btnModify">수정</a>
+                <a href="./list.html" class="btnList">목록</a>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>ⓒCopyleft by nhnet.or.kr</p>
+        </footer>
+    </div>
+</body>
+
+</html>
