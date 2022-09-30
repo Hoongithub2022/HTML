@@ -224,15 +224,48 @@ main>article>div {
     padding-bottom: 6px;
 }
 
+.info2 tr > td {
+    color: gray;
+    line-height: 18px;
+}
+
+.info2 tr > td a {
+    color: #555;
+}
+
+.info3 > img:nth-child(1) {
+    padding-bottom: 6px;
+}
+
+#gall1 > a {
+    padding-top: 16px;
+    display: inline-block;
+    width: 75px;
+    height: 55px;
+}
+
 footer {
     width: 1000px;
     height: 100px;
-    box-sizing: border-box;
     margin: 0 auto;
 }
 
 footer > #address {
     border-top: 1px solid #b9cadc;
+}
+
+footer > div > p {
+    font-size: 11px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: #555;
+    line-height: 20px;
+}
+
+#address > .logo {
+    float: left;
+    padding-top: 14px;
 }
 
 ul,
